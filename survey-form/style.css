@@ -1,0 +1,54 @@
+body {
+  background-color: grey;
+  text-align: center;
+  font-family: monospace, sans-serif;
+  min-width: 320px;
+}
+
+#title {
+  color: white;
+  font-size: 50px;
+}
+
+#description {
+  font-family: monospace;
+  font-size: 35px;
+}
+
+#survey-form {
+  font-size: 25px;
+}
+
+.labels {
+  display: inline-block;
+}
+
+.userRatings,
+input[type="checkbox"] {
+}
+
+@media screen and (max-width: 833px) {
+  .input-field {
+    width: 80%;
+  }
+  select {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .labels {
+    width: 100%;
+    text-align: left;
+  }
+  .rightTab {
+    width: 80%;
+    float: left;
+  }
+  .input-field {
+    width: 100%;
+  }
+  select {
+    width: 100%;
+  }
+}
